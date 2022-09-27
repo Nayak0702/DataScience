@@ -89,10 +89,77 @@ print(isinstance(func, types.FunctionType))
 print(isinstance(func, types.LambdaType))
 print(isinstance(lambda x: x, types.FunctionType))
 print(isinstance(lambda x: x,  types.LambdaType))
-print(isinstance(max, types.FunctionType))
 print(isinstance(max, types.LambdaType))
+print(isinstance(max, types.FunctionType))
 print(isinstance(abs, types.FunctionType))
 print(isinstance(abs, types.LambdaType))
 
-#Program No. 9
-import random
+import types
+class C:
+    def x():
+        return 1
+    def y():
+        return 1
+
+def b():
+    return 2
+    
+print(isinstance(C().x, types.MethodType))
+print(isinstance(C().y, types.MethodType))
+print(isinstance(b, types.MethodType))
+print(isinstance(max,types.MethodType))
+print(isinstance(abs,types.MethodType))
+
+
+import types
+class C:
+    def x():
+        return 1
+    def y():
+        return 1
+
+def b():
+    return 2
+
+print(isinstance(C().x, types.MethodType))
+print(isinstance(C().y, types.MethodType))
+print(isinstance(b,types.MethodType))
+print(isinstance(max, types.MethodType))
+print(isinstance(abs,types.MethodType))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
