@@ -91,7 +91,8 @@ print(isinstance(lambda x: x, types.FunctionType))
 print(isinstance(lambda x: x,  types.LambdaType))
 print(isinstance(max, types.FunctionType))
 print(isinstance(max, types.LambdaType))
-print(isinstance(abs,types.FunctionType))
-print(isinstance(abs,types.LambdaType))
+print(isinstance(abs, types.FunctionType))
+print(isinstance(abs, types.LambdaType))
 
-
+#Program No. 9
+import random
