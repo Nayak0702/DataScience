@@ -64,4 +64,34 @@ print(result_elements)
 
 
 #Program No.7
+import random
+print("Generate a random number from 0 and 1")
+random.seed(0)
+new_random_value = random.random()
+print(new_random_value)
+print("Genearate the number from o and 1 in random order")
+random.seed(1)
+new_random_value = random.random()
+print(new_random_value)
+print("Genarte random numbers from 0 amd 1")
+random.seed(2)
+new_random_value = random.random()
+print(new_random_value)
+
+
+#Program No. 8  -  Types based programs
+
+import types
+def func():
+    return 1
+
+print(isinstance(func, types.FunctionType))
+print(isinstance(func, types.LambdaType))
+print(isinstance(lambda x: x, types.FunctionType))
+print(isinstance(lambda x: x,  types.LambdaType))
+print(isinstance(max, types.FunctionType))
+print(isinstance(max, types.LambdaType))
+print(isinstance(abs,types.FunctionType))
+print(isinstance(abs,types.LambdaType))
+
 
