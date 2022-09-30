@@ -94,6 +94,8 @@ print(isinstance(max, types.FunctionType))
 print(isinstance(abs, types.FunctionType))
 print(isinstance(abs, types.LambdaType))
 
+
+# Program No. 9 
 import types
 class C:
     def x():
@@ -127,7 +129,31 @@ print(isinstance(b,types.MethodType))
 print(isinstance(max, types.MethodType))
 print(isinstance(abs,types.MethodType))
 
+#Program No. 10
+first_name = "Vietha"
+last_name = "Nayak"
+Age = 27
+Is_married = False
+Country = "India"
+City = "Udupi"
+skills = ['Testing', 'Data Science','Machine Learning']
+Personal_info =['Vijetha','Nayak','India',25, 'Udupi',False]
 
+print(first_name,last_name,Age,Is_married, Country,City,skills,Personal_info)
+
+print("Hello, World")
+print("Hello", ",",",",",")
+print(len("Hello World"))
+
+# first_name = input("What is your name")
+# age = input("How old are you")
+
+print(first_name)
+print(age)
+
+print(type(zip([1,2],[3,4]))) 
+ 
+print(type(zip([1,2],[3,4])))  
 
 
 
