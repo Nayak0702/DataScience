@@ -171,10 +171,14 @@ print(type('10')==type(10))
 print(int(9.8) == 10)
 
 # Pay per person program
-Hour = int(input("Enter Total hours: "))
-rate = int(input("\n Enter rate per hour wage"))
-pay = Hour * rate 
-print("\n Total pay:", pay)
+# Hour = int(input("Enter Total hours: "))
+# rate = int(input("\n Enter rate per hour wage"))
+# pay = Hour * rate 
+# print("\n Total pay:", pay)
 
 #Year lived program 
+year = int(input("Enter the number f years you have lived"))
+seconds = year*365*24*60*60 
+print("\n Number of seconds you have lived so far", seconds)
+
 
